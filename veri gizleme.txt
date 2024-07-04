@@ -1,0 +1,9 @@
+LSB yöntemini R G B kanallarına ayrı ayrı olarak 
+en düşük bit değerine ekleneceğini söyle 
+ilk başta 1. pixelden başlayarak yapmasını istiyecem ve metnin uzunluğuna kadar götürülecek 
+
+sezar algortiması ile gizle
+sağ kaydırma, sol kaydırma ,6 arasında random bir sayı alarak hesapla
+sezar şifreleme , sağ kaydırma , aşağı kaydırma , 0,0 pikselde R G B kanallarında sakla
+daha sonrasında 0,0'lik pixlenden başlayarak sag ve sol shift edilerek her bir kelime R G B kanallarına gizlenmesi yapılacak 
+ilk yapılan kaydırma işleminde gelinen piksel noktasındaki R G B ren kanalından R kanalının son bitine sakla . harflerimiz 8 bit olacağından
